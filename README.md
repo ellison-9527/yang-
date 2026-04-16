@@ -89,4 +89,4 @@ MCP server configuration is stored in `data/mcp_server.json`.
 
 ## License
 
-See individual skill directories for license information.
+See individual skill directories for license information.# yang-
