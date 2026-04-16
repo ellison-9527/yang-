@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    886.5794677734375,
+                    975.4692388888889
+                ],
+                [
+                    886.5794677734375,
+                    1008.4749755859375
+                ],
+                [
+                    1248.1247222222223,
+                    1008.4749755859375
+                ],
+                [
+                    1248.1247222222223,
+                    975.4692388888889
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "NarrativeText",
+        "element_id": "677f712d86fcbaaa7f28cbe151943f3f"
+    },
+    "page_content": "bcgl@cs.washington.edu",
+    "type": "Document"
+}

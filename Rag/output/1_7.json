@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    719.5486111111112,
+                    898.4933388888885
+                ],
+                [
+                    719.5486111111112,
+                    930.9781494140625
+                ],
+                [
+                    1417.4947509765625,
+                    930.9781494140625
+                ],
+                [
+                    1417.4947509765625,
+                    898.4933388888885
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "NarrativeText",
+        "element_id": "0346243048646da9ea3aaa7a8a7a64d9"
+    },
+    "page_content": "{melissadell,jacob carlson}@fas.harvard.edu",
+    "type": "Document"
+}

@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    465.0043029785156,
+                    2232.420640277778
+                ],
+                [
+                    465.0043029785156,
+                    2309.6484375
+                ],
+                [
+                    1668.8726806640625,
+                    2309.6484375
+                ],
+                [
+                    1668.8726806640625,
+                    2232.420640277778
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 10,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "dce66025c40567da68fd7370506997e1",
+        "category": "NarrativeText",
+        "element_id": "0dfe18d94b2a87db18d0a45d434b1cb0"
+    },
+    "page_content": "The core objective of LayoutParser is to make it easier to create both large-scale and light-weight document digitization pipelines. Large-scale document processing",
+    "type": "Document"
+}

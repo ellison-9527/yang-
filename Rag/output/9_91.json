@@ -1,0 +1,53 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    465.4526062011719,
+                    1941.844251388889
+                ],
+                [
+                    465.4526062011719,
+                    2309.641357421875
+                ],
+                [
+                    1673.5276471666025,
+                    2309.641357421875
+                ],
+                [
+                    1673.5276471666025,
+                    1941.844251388889
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "33",
+                "url": "cite.studer2019comprehensive",
+                "start_index": 429
+            },
+            {
+                "text": "5",
+                "url": "cite.imagenet_cvpr09",
+                "start_index": 501
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 9,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "af3289fee2a8b80868707121b226469d",
+        "category": "NarrativeText",
+        "element_id": "cd9ff032b8a80f56188ad2b5b7156573"
+    },
+    "page_content": "After the training dataset is curated, LayoutParser supports diﬀerent modes for training the layout models. Fine-tuning can be used for training models on a small newly-labeled dataset by initializing the model with existing pre-trained weights. Training from scratch can be helpful when the source dataset and target are signiﬁcantly diﬀerent and a large training set is available. However, as suggested in Studer et al.’s work[33], loading pre-trained weights on large-scale datasets like ImageNet [5], even from totally diﬀerent domains, can still boost model performance. Through the integrated API provided by LayoutParser, users can easily compare model performances on the benchmark datasets.",
+    "type": "Document"
+}

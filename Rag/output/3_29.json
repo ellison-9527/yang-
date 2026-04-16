@@ -1,0 +1,68 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    465.0789489746094,
+                    616.8685569444443
+                ],
+                [
+                    465.0789489746094,
+                    819.7968139648438
+                ],
+                [
+                    1674.496148992018,
+                    819.7968139648438
+                ],
+                [
+                    1674.496148992018,
+                    616.8685569444443
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "2",
+                "url": "section.1.2",
+                "start_index": 55
+            },
+            {
+                "text": "3",
+                "url": "section.1.3",
+                "start_index": 195
+            },
+            {
+                "text": "4",
+                "url": "section.1.4",
+                "start_index": 268
+            },
+            {
+                "text": "5",
+                "url": "section.1.5",
+                "start_index": 279
+            },
+            {
+                "text": "6",
+                "url": "section.1.6",
+                "start_index": 371
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "1c6ee1591886186227aeb8903116a5c0",
+        "category": "NarrativeText",
+        "element_id": "a7ca1364ee78493d236c66b206ccedf4"
+    },
+    "page_content": "The rest of the paper is organized as follows. Section 2 provides an overview of related work. The core LayoutParser library, DL Model Zoo, and customized model training are described in Section 3, and the DL model hub and commu- nity platform are detailed in Section 4. Section 5 shows two examples of how LayoutParser can be used in practical DIA projects, and Section 6 concludes.",
+    "type": "Document"
+}

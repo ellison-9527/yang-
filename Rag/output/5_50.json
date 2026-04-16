@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    506.2015686035156,
+                    437.9761958333334
+                ],
+                [
+                    506.2015686035156,
+                    473.5371430555557
+                ],
+                [
+                    1626.637451171875,
+                    473.5371430555557
+                ],
+                [
+                    1626.637451171875,
+                    437.9761958333334
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "d884ff9a890fd1b206db55d09f169019",
+        "category": "FigureCaption",
+        "element_id": "bb9603875915cf44e225bf8572b0d4be"
+    },
+    "page_content": "Table 1: Current layout detection models in the LayoutParser model zoo",
+    "type": "Document"
+}

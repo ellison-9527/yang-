@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    466.6047058105469,
+                    403.34065555555577
+                ],
+                [
+                    466.6047058105469,
+                    444.85176666666683
+                ],
+                [
+                    761.3677695848888,
+                    444.85176666666683
+                ],
+                [
+                    761.3677695848888,
+                    403.34065555555577
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 14,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "8de6ded63b35033992a6eb8c08debe6f",
+        "category": "Title",
+        "element_id": "2d665682ba83d4a2ef20e6084f9f50db"
+    },
+    "page_content": "6 Conclusion",
+    "type": "Document"
+}

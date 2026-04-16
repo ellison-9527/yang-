@@ -1,0 +1,39 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    588.0104166666667,
+                    402.2424305555556
+                ],
+                [
+                    588.0104166666667,
+                    1067.4722222222224
+                ],
+                [
+                    1548.5176041666668,
+                    1067.4722222222224
+                ],
+                [
+                    1548.5176041666668,
+                    402.2424305555556
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 9,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "a8dbb63ff3eb7c7b21114ffc08916b04"
+    },
+    "page_content": "o i = ()= og bupunog uayo Aedsig 1 uondo y Tex st Xog bupunog uao ap 7 uondo Mode I: Showing Layout on the Original Image Mode II: Drawing OCR'd Text at the Correspoding Position",
+    "type": "Document"
+}

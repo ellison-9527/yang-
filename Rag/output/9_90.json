@@ -1,0 +1,48 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    465.3452453613281,
+                    1628.7296680555555
+                ],
+                [
+                    465.3452453613281,
+                    1913.785888671875
+                ],
+                [
+                    1674.4825093099344,
+                    1913.785888671875
+                ],
+                [
+                    1674.4825093099344,
+                    1628.7296680555555
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "32",
+                "url": "cite.shen2020olala",
+                "start_index": 116
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 9,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "af3289fee2a8b80868707121b226469d",
+        "category": "NarrativeText",
+        "element_id": "9561eae776a8a4c9b8e7a92d2e2b54ae"
+    },
+    "page_content": "LayoutParser incorporates a toolkit optimized for annotating document lay- outs using object-level active learning [32]. With the help from a layout detection model trained along with labeling, only the most important layout objects within each image, rather than the whole image, are required for labeling. The rest of the regions are automatically annotated with high conﬁdence predictions from the layout detection model. This allows a layout dataset to be created more eﬃciently with only around 60% of the labeling budget.",
+    "type": "Document"
+}

@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    466.8548889160156,
+                    2017.048988888889
+                ],
+                [
+                    466.8548889160156,
+                    2060.00439453125
+                ],
+                [
+                    1170.6751742977779,
+                    2060.00439453125
+                ],
+                [
+                    1170.6751742977779,
+                    2017.048988888889
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 4,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "695dba85a54c05b38377a5960b7dca52"
+    },
+    "page_content": "3 The Core LayoutParser Library",
+    "type": "Document"
+}

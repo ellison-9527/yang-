@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.7995300292969,
+                    2048.3752833333333
+                ],
+                [
+                    471.7995300292969,
+                    2195.109619140625
+                ],
+                [
+                    1674.0624558750847,
+                    2195.109619140625
+                ],
+                [
+                    1674.0624558750847,
+                    2048.3752833333333
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "7a1bc1fb369eed92ef9f6795214e20b0",
+        "category": "ListItem",
+        "element_id": "977e380dc5946577c2cfcede5acca00f"
+    },
+    "page_content": "[21] Neudecker, C., Schlarb, S., Dogan, Z.M., Missier, P., Suﬁ, S., Williams, A., Wolsten- croft, K.: An experimental workﬂow development platform for historical document digitisation and analysis. In: Proceedings of the 2011 workshop on historical document imaging and processing. pp. 161–168 (2011)",
+    "type": "Document"
+}

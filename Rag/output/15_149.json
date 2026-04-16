@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.1751708984375,
+                    1819.9968111111114
+                ],
+                [
+                    471.1751708984375,
+                    1928.166748046875
+                ],
+                [
+                    1673.1543802623978,
+                    1928.166748046875
+                ],
+                [
+                    1673.1543802623978,
+                    1819.9968111111114
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "7a1bc1fb369eed92ef9f6795214e20b0",
+        "category": "ListItem",
+        "element_id": "96fadcc12226b4593c92d8f852e88c52"
+    },
+    "page_content": "[19] Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Doll´ar, P., Zitnick, C.L.: Microsoft coco: Common objects in context. In: European conference on computer vision. pp. 740–755. Springer (2014)",
+    "type": "Document"
+}

@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.2040100097656,
+                    2271.857827777778
+                ],
+                [
+                    464.2040100097656,
+                    2308.51904296875
+                ],
+                [
+                    1161.364801250889,
+                    2308.51904296875
+                ],
+                [
+                    1161.364801250889,
+                    2271.857827777778
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "7f8cab3058b84e5a60cc09ebe68be604"
+    },
+    "page_content": "12 https://github.com/PaddlePaddle/PaddleOCR",
+    "type": "Document"
+}

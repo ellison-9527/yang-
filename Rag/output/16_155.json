@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.2101745605469,
+                    487.809311111111
+                ],
+                [
+                    471.2101745605469,
+                    596.5150756835938
+                ],
+                [
+                    1673.1815112780841,
+                    596.5150756835938
+                ],
+                [
+                    1673.1815112780841,
+                    487.809311111111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "04c0655f0749575bbe838891bf103d6d"
+    },
+    "page_content": "[24] Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., Killeen, T., Lin, Z., Gimelshein, N., Antiga, L., et al.: Pytorch: An imperative style, high-performance deep learning library. arXiv preprint arXiv:1912.01703 (2019)",
+    "type": "Document"
+}

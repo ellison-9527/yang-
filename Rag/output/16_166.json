@@ -1,0 +1,53 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.3546447753906,
+                    1781.5697277777779
+                ],
+                [
+                    471.3546447753906,
+                    1852.6614990234375
+                ],
+                [
+                    1671.9891666666667,
+                    1852.6614990234375
+                ],
+                [
+                    1671.9891666666667,
+                    1781.5697277777779
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "https ://",
+                "url": "https://github.com/facebookresearch/detectron2",
+                "start_index": 317
+            },
+            {
+                "text": "github . com / facebookresearch / detectron2",
+                "url": "https://github.com/facebookresearch/detectron2",
+                "start_index": 0
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "71c1e09e0ae75ac750aaf4bfb71539d5"
+    },
+    "page_content": "[35] Wu, Y., Kirillov, A., Massa, F., Lo, W.Y., Girshick, R.: Detectron2. https:// github.com/facebookresearch/detectron2 (2019)",
+    "type": "Document"
+}

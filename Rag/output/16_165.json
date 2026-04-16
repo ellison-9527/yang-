@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    470.88775634765625,
+                    1667.4134777777779
+                ],
+                [
+                    470.88775634765625,
+                    1777.1270751953125
+                ],
+                [
+                    1674.0611550185647,
+                    1777.1270751953125
+                ],
+                [
+                    1674.0611550185647,
+                    1667.4134777777779
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "881f67b82dccc13eaf96e912750c0318"
+    },
+    "page_content": "[34] Wolf, T., Debut, L., Sanh, V., Chaumond, J., Delangue, C., Moi, A., Cistac, P., Rault, T., Louf, R., Funtowicz, M., et al.: Huggingface’s transformers: State-of- the-art natural language processing. arXiv preprint arXiv:1910.03771 (2019)",
+    "type": "Document"
+}

@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.64178466796875,
+                    2107.889390277778
+                ],
+                [
+                    464.64178466796875,
+                    2309.926513671875
+                ],
+                [
+                    1674.4909051215536,
+                    2309.926513671875
+                ],
+                [
+                    1674.4909051215536,
+                    2107.889390277778
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 4,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "695dba85a54c05b38377a5960b7dca52",
+        "category": "NarrativeText",
+        "element_id": "cf23ea5ede08492b2715a8a3b5b23daf"
+    },
+    "page_content": "At the core of LayoutParser is an oﬀ-the-shelf toolkit that streamlines DL- based document image analysis. Five components support a simple interface with comprehensive functionalities: 1) The layout detection models enable using pre-trained or self-trained DL models for layout detection with just four lines of code. 2) The detected layout information is stored in carefully engineered",
+    "type": "Document"
+}

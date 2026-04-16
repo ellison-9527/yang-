@@ -1,0 +1,39 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    678.0729166666666,
+                    402.21430555555554
+                ],
+                [
+                    678.0729166666666,
+                    1032.6493055555557
+                ],
+                [
+                    1458.5170833333332,
+                    1032.6493055555557
+                ],
+                [
+                    1458.5170833333332,
+                    402.21430555555554
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 6,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "86a598839695c5b6f03fed30aaa14194"
+    },
+    "page_content": "xinterval Rectangle Quadilateral Coordinate ek Coordinate + textblock Extra features Block Text Block Type Reading Order [ textblockl textblock2 layoutl ] layout A list of the layout elements The same transformation and operation APIs",
+    "type": "Document"
+}

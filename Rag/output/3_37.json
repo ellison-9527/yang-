@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    477.4444444444444,
+                    2157.70505
+                ],
+                [
+                    477.4444444444444,
+                    2195.663330078125
+                ],
+                [
+                    1082.0716552734375,
+                    2195.663330078125
+                ],
+                [
+                    1082.0716552734375,
+                    2157.70505
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "11482316d89c42780cdfe794994f4bb8"
+    },
+    "page_content": "9 https://github.com/leonlulu/DeepLayout",
+    "type": "Document"
+}

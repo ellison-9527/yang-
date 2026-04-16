@@ -1,0 +1,58 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.92974853515625,
+                    499.3511958333331
+                ],
+                [
+                    464.92974853515625,
+                    909.3619995117188
+                ],
+                [
+                    1669.6523138217328,
+                    909.3619995117188
+                ],
+                [
+                    1669.6523138217328,
+                    499.3511958333331
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "37",
+                "url": "cite.xu2019layoutlm",
+                "start_index": 709
+            },
+            {
+                "text": "36",
+                "url": "cite.xu2020layoutlmv2",
+                "start_index": 713
+            },
+            {
+                "text": "9",
+                "url": "cite.garncarek2020lambert",
+                "start_index": 717
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 14,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2d665682ba83d4a2ef20e6084f9f50db",
+        "category": "NarrativeText",
+        "element_id": "6a1bfe38f685ad357fff728c1a9ae7ba"
+    },
+    "page_content": "LayoutParser provides a comprehensive toolkit for deep learning-based document image analysis. The oﬀ-the-shelf library is easy to install, and can be used to build ﬂexible and accurate pipelines for processing documents with complicated structures. It also supports high-level customization and enables easy labeling and training of DL models on unique document image datasets. The LayoutParser community platform facilitates sharing DL models and DIA pipelines, inviting discussion and promoting code reproducibility and reusability. The LayoutParser team is committed to keeping the library updated continuously and bringing the most recent advances in DL-based DIA, such as multi-modal document modeling [37, 36, 9] (an upcoming priority), to a diverse audience of end-users.",
+    "type": "Document"
+}

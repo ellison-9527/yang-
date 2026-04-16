@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.7638888888889,
+                    2154.412841796875
+                ],
+                [
+                    464.7638888888889,
+                    2231.7482
+                ],
+                [
+                    1668.7251372343292,
+                    2231.7482
+                ],
+                [
+                    1668.7251372343292,
+                    2154.412841796875
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "746a0f2150a6e0351d8a32c6ff2048e6"
+    },
+    "page_content": "16 This measures the overlap between the detected and ground-truth characters, and the maximum is 1.",
+    "type": "Document"
+}

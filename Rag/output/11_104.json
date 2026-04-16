@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    466.87481689453125,
+                    904.1602236111114
+                ],
+                [
+                    466.87481689453125,
+                    939.5035400390625
+                ],
+                [
+                    1615.2415742990631,
+                    939.5035400390625
+                ],
+                [
+                    1615.2415742990631,
+                    904.1602236111114
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 11,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "1d8419843e738d31dff7ad88be666411",
+        "category": "Title",
+        "element_id": "b737ef6390c63dfa649bfad32df8ceb4"
+    },
+    "page_content": "5.1 A Comprehensive Historical Document Digitization Pipeline",
+    "type": "Document"
+}

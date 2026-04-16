@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    477.3857727050781,
+                    2043.5488
+                ],
+                [
+                    477.3857727050781,
+                    2080.88330078125
+                ],
+                [
+                    1492.0412720935556,
+                    2080.88330078125
+                ],
+                [
+                    1492.0412720935556,
+                    2043.5488
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "b17ad7a9ffa81df580fdb9dc666d93f0"
+    },
+    "page_content": "6 The number shown is obtained by specifying the search type as ‘code’.",
+    "type": "Document"
+}

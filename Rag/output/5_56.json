@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    438.3592224121094,
+                    1773.0323486328125
+                ],
+                [
+                    438.3592224121094,
+                    1962.27392578125
+                ],
+                [
+                    1667.8951416015625,
+                    1962.27392578125
+                ],
+                [
+                    1667.8951416015625,
+                    1773.0323486328125
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "filename": "layout-parser-paper.pdf",
+        "category": "CodeSnippet",
+        "element_id": "300635979fdac091b1874326e8ae5c17"
+    },
+    "page_content": "1 import layoutparser as lp 2 image = cv2.imread(\"image_file\") # load images 3 model = lp.Detectron2LayoutModel( 4 \"lp://PubLayNet/faster_rcnn_R_50_FPN_3x/config\") 5 layout = model.detect(image)",
+    "type": "Document"
+}

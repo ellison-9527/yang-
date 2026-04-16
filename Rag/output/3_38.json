@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.7604166666667,
+                    2195.7571333333335
+                ],
+                [
+                    464.7604166666667,
+                    2234.5263671875
+                ],
+                [
+                    1101.9343806282222,
+                    2234.5263671875
+                ],
+                [
+                    1101.9343806282222,
+                    2195.7571333333335
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "5538e077704d36f41ec219631e105c76"
+    },
+    "page_content": "10 https://github.com/hpanwar08/detectron2",
+    "type": "Document"
+}

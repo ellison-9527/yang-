@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    894.2951388888891,
+                    1007.7883833333334
+                ],
+                [
+                    894.2951388888891,
+                    1043.7829222222222
+                ],
+                [
+                    1242.3617367580002,
+                    1043.7829222222222
+                ],
+                [
+                    1242.3617367580002,
+                    1007.7883833333334
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "UncategorizedText",
+        "element_id": "2f8e1e31ff06dc3b996d7dce15c047f4"
+    },
+    "page_content": "5 University of Waterloo",
+    "type": "Document"
+}

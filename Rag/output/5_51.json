@@ -1,0 +1,69 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    474.197509765625,
+                    485.6214904785156
+                ],
+                [
+                    474.197509765625,
+                    706.4533081054688
+                ],
+                [
+                    1661.469970703125,
+                    706.4533081054688
+                ],
+                [
+                    1661.469970703125,
+                    485.6214904785156
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "[ 38 ]",
+                "url": "cite.zhong2019publaynet",
+                "start_index": 10
+            },
+            {
+                "text": "[ 3 ]",
+                "url": "cite.antonacopoulos2009realistic",
+                "start_index": 21
+            },
+            {
+                "text": "[ 17 ]",
+                "url": "cite.newspaper_navigator_dataset",
+                "start_index": 35
+            },
+            {
+                "text": "[ 18 ]",
+                "url": "cite.li2019tablebank",
+                "start_index": 50
+            },
+            {
+                "text": "[ 31 ]",
+                "url": "cite.shen2020large",
+                "start_index": 65
+            }
+        ],
+        "text_as_html": "<table><thead><tr><th>Dataset</th><th>| Base ]l</th><th>Large Model</th><th>| Notes</th></tr></thead><tbody><tr><td>PubLayNet [38]</td><td>F/M</td><td>M</td><td>Layouts of modern scientific documents</td></tr><tr><td>PRImA [3]</td><td>M</td><td>-</td><td>Layouts of scanned modern magazines and scientific reports</td></tr><tr><td>Newspaper [17]</td><td>F</td><td></td><td>Layouts of scanned US newspapers from the 20th century</td></tr><tr><td>TableBank [18]</td><td></td><td></td><td>Table region on modern scientific and business document</td></tr><tr><td>HJDataset [31]</td><td>F/M</td><td></td><td>Layouts of history Japanese documents</td></tr></tbody></table>",
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "d884ff9a890fd1b206db55d09f169019",
+        "category": "Table",
+        "element_id": "a8d01a8d75ba1b1c25106fd51ffb4abc"
+    },
+    "page_content": "Dataset Base Model1 Large Model Notes PubLayNet [38] F / M M Layouts of modern scientiﬁc documents PRImA [3] M - Layouts of scanned modern magazines and scientiﬁc reports Newspaper [17] F - Layouts of scanned US newspapers from the 20th century TableBank [18] F F Table region on modern scientiﬁc and business document HJDataset [31] F / M - Layouts of history Japanese documents",
+    "type": "Document"
+}

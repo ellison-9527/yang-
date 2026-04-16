@@ -1,0 +1,39 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    467.93402777777777,
+                    402.19260416666657
+                ],
+                [
+                    467.93402777777777,
+                    951.0208333333334
+                ],
+                [
+                    1668.6788194444446,
+                    951.0208333333334
+                ],
+                [
+                    1668.6788194444446,
+                    402.19260416666657
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 10,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "543a9bf094fede10cfa848ec41dd8396"
+    },
+    "page_content": "Intra-column reading order | [ k ‘Token Categories Title Address : L) : Text Number Column reading order | Variable s gl = L e | Company Type (a) usts rn of the original J document with detected layout elements highlighted in colored boxes Column Categories Title b3 $4 L1 a ] 2 x ] Bl Address i i ) i i U + i i Text i i i ] 0 Section Header 2 ! B i t il A A ; ] i i H i L E L L] : R T ¥ Maximum Allowed Height (b) llustration of the recreated document with dense text structure for better OCR performance",
+    "type": "Document"
+}

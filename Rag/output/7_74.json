@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.7638888888889,
+                    2270.0751953125
+                ],
+                [
+                    464.7638888888889,
+                    2308.749755859375
+                ],
+                [
+                    1406.9191981804445,
+                    2308.749755859375
+                ],
+                [
+                    1406.9191981804445,
+                    2270.0751953125
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 7,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "5ef749ad23a22f60567cb8b1ca79d1e9"
+    },
+    "page_content": "13 This is also available in the LayoutParser documentation pages.",
+    "type": "Document"
+}

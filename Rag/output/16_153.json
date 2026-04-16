@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    467.4693603515625,
+                    321.764172222222
+                ],
+                [
+                    467.4693603515625,
+                    352.8975055555554
+                ],
+                [
+                    771.1540166237778,
+                    352.8975055555554
+                ],
+                [
+                    771.1540166237778,
+                    321.764172222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Header",
+        "element_id": "2125d675311c00e01a24886e8a603ee1"
+    },
+    "page_content": "16 Z. Shen et al.",
+    "type": "Document"
+}

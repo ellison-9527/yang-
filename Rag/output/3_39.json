@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.7604166666667,
+                    2233.8057444444444
+                ],
+                [
+                    464.7604166666667,
+                    2270.180419921875
+                ],
+                [
+                    1070.8187255859375,
+                    2270.180419921875
+                ],
+                [
+                    1070.8187255859375,
+                    2233.8057444444444
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "631f3008d861e2bc2f98f659ca683e0c"
+    },
+    "page_content": "11 https://github.com/JaidedAI/EasyOCR",
+    "type": "Document"
+}

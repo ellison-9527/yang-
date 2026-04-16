@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.81842041015625,
+                    848.410223611111
+                ],
+                [
+                    464.81842041015625,
+                    1007.5338347222223
+                ],
+                [
+                    1669.6612157752438,
+                    1007.5338347222223
+                ],
+                [
+                    1669.6612157752438,
+                    848.410223611111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 13,
+        "filename": "layout-parser-paper.pdf",
+        "category": "FigureCaption",
+        "element_id": "46559847bda3109adb8b48cfaae864ae"
+    },
+    "page_content": "Fig.6: This lightweight table detector can identify tables (outlined in red) and cells (shaded in blue) in diﬀerent locations on a page. In very few cases (d), it might generate minor error predictions, e.g, failing to capture the top text line of a table.",
+    "type": "Document"
+}

@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    477.4444444444444,
+                    2119.6529666666665
+                ],
+                [
+                    477.4444444444444,
+                    2156.0439453125
+                ],
+                [
+                    1255.8856009395556,
+                    2156.0439453125
+                ],
+                [
+                    1255.8856009395556,
+                    2119.6529666666665
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "780c4bd8fb19c524b7da50acde7fa81e"
+    },
+    "page_content": "8 https://github.com/BobLd/DocumentLayoutAnalysis",
+    "type": "Document"
+}

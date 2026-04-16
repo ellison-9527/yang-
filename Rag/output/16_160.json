@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.7153625488281,
+                    1096.6391722222224
+                ],
+                [
+                    471.7153625488281,
+                    1166.591552734375
+                ],
+                [
+                    1672.4540603609191,
+                    1166.591552734375
+                ],
+                [
+                    1672.4540603609191,
+                    1096.6391722222224
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "d0529ef231eeac2e8ae2083dee416210"
+    },
+    "page_content": "[29] Scarselli, F., Gori, M., Tsoi, A.C., Hagenbuchner, M., Monfardini, G.: The graph neural network model. IEEE transactions on neural networks 20(1), 61–80 (2008)",
+    "type": "Document"
+}

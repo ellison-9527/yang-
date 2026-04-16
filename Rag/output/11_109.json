@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    1066.4715576171875,
+                    2023.264390277778
+                ],
+                [
+                    1066.4715576171875,
+                    2141.405029296875
+                ],
+                [
+                    1674.4783436988816,
+                    2141.405029296875
+                ],
+                [
+                    1674.4783436988816,
+                    2023.264390277778
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 11,
+        "filename": "layout-parser-paper.pdf",
+        "category": "FigureCaption",
+        "element_id": "dd7c66feab899b1b52f2cd94ac0b2b08"
+    },
+    "page_content": "Fig.5: Illustration of how LayoutParser helps with the historical document digi- tization pipeline.",
+    "type": "Document"
+}

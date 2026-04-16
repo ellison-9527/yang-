@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    910.1802978515625,
+                    1051.5734055555556
+                ],
+                [
+                    910.1802978515625,
+                    1082.706738888889
+                ],
+                [
+                    1223.7545166015625,
+                    1082.706738888889
+                ],
+                [
+                    1223.7545166015625,
+                    1051.5734055555556
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "NarrativeText",
+        "element_id": "6bba2bcda018e7e833ec3750b8b2bf30"
+    },
+    "page_content": "w422li@uwaterloo.ca",
+    "type": "Document"
+}

@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    466.72808837890625,
+                    1127.0248069444444
+                ],
+                [
+                    466.72808837890625,
+                    1162.60498046875
+                ],
+                [
+                    1218.7785239505417,
+                    1162.60498046875
+                ],
+                [
+                    1218.7785239505417,
+                    1127.0248069444444
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 13,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Title",
+        "element_id": "18f7a8fde8d31321c2fb5aaf9397646a"
+    },
+    "page_content": "5.2 A light-weight Visual Table Extractor",
+    "type": "Document"
+}

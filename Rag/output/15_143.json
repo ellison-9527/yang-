@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.01898193359375,
+                    982.653061111111
+                ],
+                [
+                    471.01898193359375,
+                    1090.842041015625
+                ],
+                [
+                    1674.9404725576767,
+                    1090.842041015625
+                ],
+                [
+                    1674.9404725576767,
+                    982.653061111111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "7a1bc1fb369eed92ef9f6795214e20b0",
+        "category": "ListItem",
+        "element_id": "5e7b8645e659977178ab59867c28dd87"
+    },
+    "page_content": "[13] He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016)",
+    "type": "Document"
+}

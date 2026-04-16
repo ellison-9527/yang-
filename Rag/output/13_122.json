@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.7638888888889,
+                    2269.991455078125
+                ],
+                [
+                    464.7638888888889,
+                    2309.266357421875
+                ],
+                [
+                    1561.4872938328892,
+                    2309.266357421875
+                ],
+                [
+                    1561.4872938328892,
+                    2269.991455078125
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 13,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "e765393696be16afa2fb9c5eb542d2f2"
+    },
+    "page_content": "18 https://github.com/atlanhq/camelot, https://github.com/tabulapdf/tabula",
+    "type": "Document"
+}

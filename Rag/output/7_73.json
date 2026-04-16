@@ -1,0 +1,52 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.36181640625,
+                    2129.628973611111
+                ],
+                [
+                    464.36181640625,
+                    2247.784912109375
+                ],
+                [
+                    1668.81005859375,
+                    2247.784912109375
+                ],
+                [
+                    1668.81005859375,
+                    2129.628973611111
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "6",
+                "url": "cite.deng2017image",
+                "start_index": 59
+            },
+            {
+                "text": "10",
+                "url": "cite.graves2006connectionist",
+                "start_index": 128
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 7,
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "de1d8bfe7152dc33f91cf1f457530e9a"
+    },
+    "page_content": "LayoutParser also comes with a DL-based CNN-RNN OCR model [6] trained with the Connectionist Temporal Classiﬁcation (CTC) loss [10]. It can be used like the other OCR modules, and can be easily trained on customized datasets.",
+    "type": "Document"
+}

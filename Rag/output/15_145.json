@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    470.93994140625,
+                    1172.97945
+                ],
+                [
+                    470.93994140625,
+                    1281.4119873046875
+                ],
+                [
+                    1668.8101806640625,
+                    1281.4119873046875
+                ],
+                [
+                    1668.8101806640625,
+                    1172.97945
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "7a1bc1fb369eed92ef9f6795214e20b0",
+        "category": "ListItem",
+        "element_id": "451648e4167366669dadf01a99f8dffe"
+    },
+    "page_content": "[15] Lamiroy, B., Lopresti, D.: An open architecture for end-to-end document analysis benchmarking. In: 2011 International Conference on Document Analysis and Recognition. pp. 42–47. IEEE (2011)",
+    "type": "Document"
+}

@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.2463073730469,
+                    968.8581402777778
+                ],
+                [
+                    464.2463073730469,
+                    1253.8685302734375
+                ],
+                [
+                    1669.9985075063755,
+                    1253.8685302734375
+                ],
+                [
+                    1669.9985075063755,
+                    968.8581402777778
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "d884ff9a890fd1b206db55d09f169019",
+        "category": "NarrativeText",
+        "element_id": "0b9e7697400602ac472eda5564c0f44d"
+    },
+    "page_content": "layout data structures, which are optimized for eﬃciency and versatility. 3) When necessary, users can employ existing or customized OCR models via the uniﬁed API provided in the OCR module. 4) LayoutParser comes with a set of utility functions for the visualization and storage of the layout data. 5) LayoutParser is also highly customizable, via its integration with functions for layout data annotation and model training. We now provide detailed descriptions for each component.",
+    "type": "Document"
+}

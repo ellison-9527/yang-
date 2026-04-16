@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.1199035644531,
+                    437.9761958333334
+                ],
+                [
+                    464.1199035644531,
+                    556.557976388889
+                ],
+                [
+                    1673.5278400398277,
+                    556.557976388889
+                ],
+                [
+                    1673.5278400398277,
+                    437.9761958333334
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 8,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "3bb37678da59898b7785d0f518a10209",
+        "category": "FigureCaption",
+        "element_id": "079d6efa36a660ac326bdccdd591f817"
+    },
+    "page_content": "Table 2: All operations supported by the layout elements. The same APIs are supported across diﬀerent layout element classes including Coordinate types, TextBlock and Layout.",
+    "type": "Document"
+}

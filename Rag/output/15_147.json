@@ -1,0 +1,48 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.11846923828125,
+                    1515.5141722222222
+                ],
+                [
+                    471.11846923828125,
+                    1699.7275722222223
+                ],
+                [
+                    1673.1624602185652,
+                    1699.7275722222223
+                ],
+                [
+                    1673.1624602185652,
+                    1515.5141722222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "https :// doi . org / 10 . 1145 / 3340531 . 3412767",
+                "url": "https://doi.org/10.1145/3340531.3412767",
+                "start_index": 334
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "7a1bc1fb369eed92ef9f6795214e20b0",
+        "category": "ListItem",
+        "element_id": "3e0a387a794e6cffb7851971267420c8"
+    },
+    "page_content": "[17] Lee, B.C.G., Mears, J., Jakeway, E., Ferriter, M., Adams, C., Yarasavage, N., Thomas, D., Zwaard, K., Weld, D.S.: The Newspaper Navigator Dataset: Extracting Headlines and Visual Content from 16 Million Historic Newspaper Pages in Chronicling America, p. 3055–3062. Association for Computing Machinery, New York, NY, USA (2020), https://doi.org/10.1145/3340531.3412767",
+    "type": "Document"
+}

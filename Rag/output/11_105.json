@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.5461120605469,
+                    991.2123069444444
+                ],
+                [
+                    464.5461120605469,
+                    1193.162109375
+                ],
+                [
+                    1674.4905869692968,
+                    1193.162109375
+                ],
+                [
+                    1674.4905869692968,
+                    991.2123069444444
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 11,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "b737ef6390c63dfa649bfad32df8ceb4",
+        "category": "NarrativeText",
+        "element_id": "ee4de53edd2988a8665537b06681577d"
+    },
+    "page_content": "The digitization of historical documents can unlock valuable data that can shed light on many important social, economic, and historical questions. Yet due to scan noises, page wearing, and the prevalence of complicated layout structures, ob- taining a structured representation of historical document scans is often extremely complicated.",
+    "type": "Document"
+}

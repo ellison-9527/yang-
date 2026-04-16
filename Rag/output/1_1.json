@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "partial",
+        "coordinates": {
+            "points": [
+                [
+                    56.736111111111114,
+                    740.8333333333334
+                ],
+                [
+                    56.736111111111114,
+                    1944.4444444444446
+                ],
+                [
+                    126.18055555555557,
+                    1944.4444444444446
+                ],
+                [
+                    126.18055555555557,
+                    740.8333333333334
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Header",
+        "element_id": "64572cd18459e575dc423d9eee96086b"
+    },
+    "page_content": "1 2 0 2 n u J 1 2 ] V C . s c [ 2 v 8 4 3 5 1 . 3 0 1 2 : v i X r a",
+    "type": "Document"
+}

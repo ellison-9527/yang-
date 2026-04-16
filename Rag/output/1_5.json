@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    880.6494140625,
+                    823.2643777777773
+                ],
+                [
+                    880.6494140625,
+                    854.3977111111111
+                ],
+                [
+                    1255.1536865234375,
+                    854.3977111111111
+                ],
+                [
+                    1255.1536865234375,
+                    823.2643777777773
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "NarrativeText",
+        "element_id": "b7f0ebe3b497bb9a2ece7eaeea0ac9c3"
+    },
+    "page_content": "ruochen zhang@brown.edu",
+    "type": "Document"
+}

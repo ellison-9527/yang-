@@ -1,0 +1,58 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    466.238525390625,
+                    2149.220947265625
+                ],
+                [
+                    466.238525390625,
+                    2309.6787109375
+                ],
+                [
+                    1674.499822418038,
+                    2309.6787109375
+                ],
+                [
+                    1674.499822418038,
+                    2149.220947265625
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "8",
+                "url": "cite.gardner2018allennlp",
+                "start_index": 138
+            },
+            {
+                "text": "34",
+                "url": "cite.wolf2019huggingface",
+                "start_index": 141
+            },
+            {
+                "text": "35",
+                "url": "cite.wu2019detectron2",
+                "start_index": 168
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 2,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "e7e0acf197e89d650d39fa3ce929509e",
+        "category": "NarrativeText",
+        "element_id": "583775f22c8080098beebbef960e2fbf"
+    },
+    "page_content": "LayoutParser is well aligned with recent eﬀorts for improving DL model reusability in other disciplines like natural language processing [8, 34] and com- puter vision [35], but with a focus on unique challenges in DIA. We show LayoutParser can be applied in sophisticated and large-scale digitization projects",
+    "type": "Document"
+}

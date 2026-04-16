@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.4002990722656,
+                    1096.8440333333333
+                ],
+                [
+                    471.4002990722656,
+                    1166.30615234375
+                ],
+                [
+                    1674.9311521698082,
+                    1166.30615234375
+                ],
+                [
+                    1674.9311521698082,
+                    1096.8440333333333
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "7a1bc1fb369eed92ef9f6795214e20b0",
+        "category": "ListItem",
+        "element_id": "ac11ced3fbe106d9f70616153047eb81"
+    },
+    "page_content": "[14] Kay, A.: Tesseract: An open-source optical character recognition engine. Linux J. 2007(159), 2 (Jul 2007)",
+    "type": "Document"
+}

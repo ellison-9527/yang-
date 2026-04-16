@@ -1,0 +1,73 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    465.98248291015625,
+                    403.2978820800781
+                ],
+                [
+                    465.98248291015625,
+                    2091.339390277778
+                ],
+                [
+                    1674.50350465357,
+                    2091.339390277778
+                ],
+                [
+                    1674.50350465357,
+                    403.2978820800781
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "32",
+                "url": "cite.shen2020olala",
+                "start_index": 249
+            },
+            {
+                "text": "19",
+                "url": "cite.lin2014microsoft",
+                "start_index": 794
+            },
+            {
+                "text": "4",
+                "url": "figure.caption.9",
+                "start_index": 485
+            },
+            {
+                "text": "6",
+                "url": "cite.deng2017image",
+                "start_index": 766
+            },
+            {
+                "text": "model detects a total of 15 possible categories , and achieves a 0 . 98 Jaccard score16",
+                "url": "Hfootnote.11",
+                "start_index": 774
+            },
+            {
+                "text": "for",
+                "url": "Hfootnote.12",
+                "start_index": 901
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "9d917f215b0115c679105482b80d2d2d",
+        "category": "NarrativeText",
+        "element_id": "179dc15f212f52d9c85d931080a636b2"
+    },
+    "page_content": "To decipher the complicated layout structure, two object detection models have been trained to recognize individual columns and tokens, respectively. A small training set (400 images with approxi- mately 100 annotations each) is curated via the active learning based annotation tool [32] in LayoutParser. The models learn to identify both the categories and regions for each token or column via their distinct visual features. The layout data structure enables easy grouping of the tokens within each column, and rearranging columns to achieve the correct reading orders based on the horizontal position. Errors are identiﬁed and rectiﬁed via checking the consistency of the model predictions. Therefore, though trained on a small dataset, the pipeline achieves a high level of layout detection accuracy: it achieves a 96.97 AP [19] score across 5 categories for the column detection model, and a 89.23 AP across 4 categories for the token detection model. A combination of character recognition methods is developed to tackle the unique challenges in this document. In our experiments, we found that irregular spacing between the tokens led to a low character recognition recall rate, whereas existing OCR models tend to perform better on densely-arranged texts. To overcome this challenge, we create a document reorganization algorithm that rearranges the text based on the token bounding boxes detected in the layout analysis step. Figure 4 (b) illustrates the generated image of dense text, which is sent to the OCR APIs as a whole to reduce the transaction costs. The ﬂexible coordinate system in LayoutParser is used to transform the OCR results relative to their original positions on the page. Additionally, it is common for historical documents to use unique fonts with diﬀerent glyphs, which signiﬁcantly degrades the accuracy of OCR models trained on modern texts. In this document, a special ﬂat font is used for printing numbers and could not be detected by oﬀ-the-shelf OCR engines. Using the highly ﬂexible functionalities from LayoutParser, a pipeline approach is constructed that achieves a high recognition accuracy with minimal eﬀort. As the characters have unique visual structures and are usually clustered together, we train the layout model to identify number regions with a dedicated category. Subsequently, LayoutParser crops images within these regions, and identiﬁes characters within them using a self-trained OCR model based on a CNN-RNN [6]. The model detects a total of 15 possible categories, and achieves a 0.98 Jaccard score16 and a 0.17 average Levinstein distances17 for token prediction on the test set. Overall, it is possible to create an intricate and highly accurate digitization pipeline for large-scale digitization using LayoutParser. The pipeline avoids specifying the complicated rules used in traditional methods, is straightforward to develop, and is robust to outliers. The DL models also generate ﬁne-grained results that enable creative approaches like page reorganization for OCR.",
+    "type": "Document"
+}

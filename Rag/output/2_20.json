@@ -1,0 +1,48 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    482.5381944444444,
+                    1508.8720291666666
+                ],
+                [
+                    482.5381944444444,
+                    1585.9029541015625
+                ],
+                [
+                    1669.4106288473138,
+                    1585.9029541015625
+                ],
+                [
+                    1669.4106288473138,
+                    1508.8720291666666
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "3",
+                "url": "section.1.3",
+                "start_index": 42
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 2,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "e7e0acf197e89d650d39fa3ce929509e",
+        "category": "ListItem",
+        "element_id": "9ce12a49c1a9972b4cd2c3f66595b2b6"
+    },
+    "page_content": "1. An oﬀ-the-shelf toolkit for applying DL models for layout detection, character recognition, and other DIA tasks (Section 3)",
+    "type": "Document"
+}

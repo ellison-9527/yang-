@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    467.2452697753906,
+                    2150.0837111111114
+                ],
+                [
+                    467.2452697753906,
+                    2192.039306640625
+                ],
+                [
+                    794.9793166666668,
+                    2192.039306640625
+                ],
+                [
+                    794.9793166666668,
+                    2150.0837111111114
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "Title",
+        "element_id": "bf02a28f4bacbe9e54d1991ecce53b11"
+    },
+    "page_content": "1 Introduction",
+    "type": "Document"
+}

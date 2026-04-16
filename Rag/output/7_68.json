@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.75823974609375,
+                    1031.583834722222
+                ],
+                [
+                    464.75823974609375,
+                    1316.210754166667
+                ],
+                [
+                    1669.6370398900333,
+                    1316.210754166667
+                ],
+                [
+                    1669.6370398900333,
+                    1031.583834722222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 7,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "6985eb8b7e80414cf55349dbc5843137",
+        "category": "NarrativeText",
+        "element_id": "584148af1f13e8b0f9c3ac96423d85e4"
+    },
+    "page_content": "Based on Coordinates, we implement the TextBlock class that stores both the positional and extra features of individual layout elements. It also supports specifying the reading orders via setting the parent ﬁeld to the index of the parent object. A Layout class is built that takes in a list of TextBlocks and supports processing the elements in batch. Layout can also be nested to support hierarchical layout structures. They support the same operations and transformations as the Coordinate classes, minimizing both learning and deployment eﬀort.",
+    "type": "Document"
+}

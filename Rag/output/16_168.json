@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    470.6594543457031,
+                    1971.8266722222222
+                ],
+                [
+                    470.6594543457031,
+                    2042.2952880859375
+                ],
+                [
+                    1670.26904296875,
+                    2042.2952880859375
+                ],
+                [
+                    1670.26904296875,
+                    1971.8266722222222
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "8b9c717003c9c36fc9833b6226aef9a3"
+    },
+    "page_content": "[37] Xu, Y., Li, M., Cui, L., Huang, S., Wei, F., Zhou, M.: Layoutlm: Pre-training of text and layout for document image understanding (2019)",
+    "type": "Document"
+}

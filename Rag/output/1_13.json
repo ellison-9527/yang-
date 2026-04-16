@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    563.7013888888889,
+                    2004.7069444444444
+                ],
+                [
+                    563.7013888888889,
+                    2080.906005859375
+                ],
+                [
+                    1570.6376953125,
+                    2080.906005859375
+                ],
+                [
+                    1570.6376953125,
+                    2004.7069444444444
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "NarrativeText",
+        "element_id": "a0ba15e8cd6ff4f1cbd4dac739fef9cd"
+    },
+    "page_content": "Keywords: Document Image Analysis · Deep Learning · Layout Analysis · Character Recognition · Open Source library · Toolkit.",
+    "type": "Document"
+}

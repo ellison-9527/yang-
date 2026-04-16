@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.4945373535156,
+                    601.9655611111108
+                ],
+                [
+                    471.4945373535156,
+                    710.5880126953125
+                ],
+                [
+                    1668.7319073228416,
+                    710.5880126953125
+                ],
+                [
+                    1668.7319073228416,
+                    601.9655611111108
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "a2f34eceb4f6036f105c6319de5450d1"
+    },
+    "page_content": "[25] Pletschacher, S., Antonacopoulos, A.: The page (page analysis and ground-truth elements) format framework. In: 2010 20th International Conference on Pattern Recognition. pp. 257–260. IEEE (2010)",
+    "type": "Document"
+}

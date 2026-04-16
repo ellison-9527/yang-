@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.6054992675781,
+                    868.3266722222219
+                ],
+                [
+                    471.6054992675781,
+                    976.8796997070312
+                ],
+                [
+                    1668.7170959446153,
+                    976.8796997070312
+                ],
+                [
+                    1668.7170959446153,
+                    868.3266722222219
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "0f5cebf6a7661981062a59f24e0b2a3a"
+    },
+    "page_content": "[27] Qasim, S.R., Mahmood, H., Shafait, F.: Rethinking table recognition using graph neural networks. In: 2019 International Conference on Document Analysis and Recognition (ICDAR). pp. 142–147. IEEE (2019)",
+    "type": "Document"
+}

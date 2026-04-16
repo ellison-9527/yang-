@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    437.7042541503906,
+                    1832.0907666666667
+                ],
+                [
+                    437.7042541503906,
+                    1939.662841796875
+                ],
+                [
+                    1367.2645055555552,
+                    1939.662841796875
+                ],
+                [
+                    1367.2645055555552,
+                    1832.0907666666667
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 7,
+        "filename": "layout-parser-paper.pdf",
+        "category": "CodeSnippet",
+        "element_id": "45187c280bb7863b67802e3e719bfd29"
+    },
+    "page_content": "1 ocr_agent = lp.TesseractAgent() 2 # Can be easily switched to other OCR software 3 tokens = ocr_agent.detect(image)",
+    "type": "Document"
+}

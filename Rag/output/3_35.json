@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    477.4444444444444,
+                    2081.6008833333335
+                ],
+                [
+                    477.4444444444444,
+                    2119.238525390625
+                ],
+                [
+                    873.4343911595555,
+                    2119.238525390625
+                ],
+                [
+                    873.4343911595555,
+                    2081.6008833333335
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 3,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "f1c768faba2f1acf38a1ada3a20afee2"
+    },
+    "page_content": "7 https://ocr-d.de/en/about",
+    "type": "Document"
+}

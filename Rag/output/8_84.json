@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.7638888888889,
+                    2270.343994140625
+                ],
+                [
+                    464.7638888888889,
+                    2309.132568359375
+                ],
+                [
+                    852.8988441815555,
+                    2309.132568359375
+                ],
+                [
+                    852.8988441815555,
+                    2270.343994140625
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 8,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "10663551ab1072656de63fdbfba5aeee"
+    },
+    "page_content": "14 https://altoxml.github.io",
+    "type": "Document"
+}

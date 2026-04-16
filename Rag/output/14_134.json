@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    487.4170227050781,
+                    2122.84130859375
+                ],
+                [
+                    487.4170227050781,
+                    2230.2690333333335
+                ],
+                [
+                    1674.9439749941641,
+                    2230.2690333333335
+                ],
+                [
+                    1674.9439749941641,
+                    2122.84130859375
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 14,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "79ccc2c57c8d67f90627087e18410972",
+        "category": "ListItem",
+        "element_id": "093e15a0fe9d293456a1f3492292fea0"
+    },
+    "page_content": "[6] Deng, Y., Kanervisto, A., Ling, J., Rush, A.M.: Image-to-markup generation with coarse-to-ﬁne attention. In: International Conference on Machine Learning. pp. 980–989. PMLR (2017)",
+    "type": "Document"
+}

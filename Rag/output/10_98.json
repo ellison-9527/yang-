@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.8037109375,
+                    1637.906751388889
+                ],
+                [
+                    464.8037109375,
+                    2089.525390625
+                ],
+                [
+                    1675.4296291699884,
+                    2089.525390625
+                ],
+                [
+                    1675.4296291699884,
+                    1637.906751388889
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 10,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "f791f077e8d2d8faec47792a1d576766",
+        "category": "NarrativeText",
+        "element_id": "42cb4161d74e8e50a46b23a9daa70586"
+    },
+    "page_content": "Beyond DL models, LayoutParser also promotes the sharing of entire doc- ument digitization pipelines. For example, sometimes the pipeline requires the combination of multiple DL models to achieve better accuracy. Currently, pipelines are mainly described in academic papers and implementations are often not pub- licly available. To this end, the LayoutParser community platform also enables the sharing of layout pipelines to promote the discussion and reuse of techniques. For each shared pipeline, it has a dedicated project page, with links to the source code, documentation, and an outline of the approaches. A discussion panel is provided for exchanging ideas. Combined with the core LayoutParser library, users can easily build reusable components based on the shared pipelines and apply them to solve their unique problems.",
+    "type": "Document"
+}

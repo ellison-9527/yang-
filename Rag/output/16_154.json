@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.55596923828125,
+                    411.70514444444433
+                ],
+                [
+                    471.55596923828125,
+                    482.389892578125
+                ],
+                [
+                    1673.1656335956445,
+                    482.389892578125
+                ],
+                [
+                    1673.1656335956445,
+                    411.70514444444433
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 16,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "2125d675311c00e01a24886e8a603ee1",
+        "category": "ListItem",
+        "element_id": "048415c6e5fc7bdd5466bf9c877b4a14"
+    },
+    "page_content": "[23] Paszke, A., Gross, S., Chintala, S., Chanan, G., Yang, E., DeVito, Z., Lin, Z., Desmaison, A., Antiga, L., Lerer, A.: Automatic diﬀerentiation in pytorch (2017)",
+    "type": "Document"
+}

@@ -1,0 +1,47 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.86370849609375,
+                    1983.3546680555555
+                ],
+                [
+                    464.86370849609375,
+                    2310.41552734375
+                ],
+                [
+                    1675.43042494438,
+                    2310.41552734375
+                ],
+                [
+                    1675.43042494438,
+                    1983.3546680555555
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "links": [
+            {
+                "text": "7",
+                "url": "cite.ganin2015unsupervised",
+                "start_index": 167
+            }
+        ],
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 5,
+        "filename": "layout-parser-paper.pdf",
+        "category": "NarrativeText",
+        "element_id": "ca01e270bae6edb923a52e3f47c18ea9"
+    },
+    "page_content": "LayoutParser provides a wealth of pre-trained model weights using various datasets covering diﬀerent languages, time periods, and document types. Due to domain shift [7], the prediction performance can notably drop when models are ap- plied to target samples that are signiﬁcantly diﬀerent from the training dataset. As document structures and layouts vary greatly in diﬀerent domains, it is important to select models trained on a dataset similar to the test samples. A semantic syntax is used for initializing the model weights in LayoutParser, using both the dataset name and model name lp://<dataset-name>/<model-architecture-name>.",
+    "type": "Document"
+}

@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    480.86767578125,
+                    1672.1116125
+                ],
+                [
+                    480.86767578125,
+                    1749.706298828125
+                ],
+                [
+                    1668.7088858367777,
+                    1749.706298828125
+                ],
+                [
+                    1668.7088858367777,
+                    1672.1116125
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 2,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "e7e0acf197e89d650d39fa3ce929509e",
+        "category": "ListItem",
+        "element_id": "0ca448d3ae0c4ee73bf46e8edfcd417d"
+    },
+    "page_content": "3. Comprehensive tools for eﬃcient document image data annotation and model tuning to support diﬀerent levels of customization",
+    "type": "Document"
+}

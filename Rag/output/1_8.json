@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    874.6944444444446,
+                    931.6842166666667
+                ],
+                [
+                    874.6944444444446,
+                    967.6787555555555
+                ],
+                [
+                    1261.0612683575557,
+                    967.6787555555555
+                ],
+                [
+                    1261.0612683575557,
+                    931.6842166666667
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 1,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "64572cd18459e575dc423d9eee96086b",
+        "category": "UncategorizedText",
+        "element_id": "25b7175c003ac66b789fc9a319f1f54c"
+    },
+    "page_content": "4 University of Washington",
+    "type": "Document"
+}

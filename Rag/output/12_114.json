@@ -1,0 +1,40 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    464.5363464355469,
+                    2232.76904296875
+                ],
+                [
+                    464.5363464355469,
+                    2307.8523666666665
+                ],
+                [
+                    1673.179498763279,
+                    2307.8523666666665
+                ],
+                [
+                    1673.179498763279,
+                    2232.76904296875
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 12,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Footer",
+        "element_id": "5664fb13c02667c57394464149b2e73d"
+    },
+    "page_content": "17 This measures the number of edits from the ground-truth text to the predicted text, and lower is better.",
+    "type": "Document"
+}

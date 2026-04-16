@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    471.37774658203125,
+                    1705.805838888889
+                ],
+                [
+                    471.37774658203125,
+                    1813.043338888889
+                ],
+                [
+                    1669.5621325417512,
+                    1813.043338888889
+                ],
+                [
+                    1669.5621325417512,
+                    1705.805838888889
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 15,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "7a1bc1fb369eed92ef9f6795214e20b0",
+        "category": "ListItem",
+        "element_id": "214954814976759f679c85d92859ae20"
+    },
+    "page_content": "[18] Li, M., Cui, L., Huang, S., Wei, F., Zhou, M., Li, Z.: Tablebank: Table benchmark for image-based table detection and recognition. arXiv preprint arXiv:1903.01949 (2019)",
+    "type": "Document"
+}

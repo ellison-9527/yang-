@@ -1,0 +1,39 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "coordinates": {
+            "points": [
+                [
+                    620.8331909179688,
+                    433.53839111328125
+                ],
+                [
+                    620.8331909179688,
+                    839.1398315429688
+                ],
+                [
+                    1513.3126220703125,
+                    839.1398315429688
+                ],
+                [
+                    1513.3126220703125,
+                    433.53839111328125
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 4,
+        "filename": "layout-parser-paper.pdf",
+        "category": "Image",
+        "element_id": "8051ac9e2801ff1516f1334cf2ac3148"
+    },
+    "page_content": "Model Customization i I Efficient Data Annotation DIA Model Hub Customized Model Trainin g DIA Pipeline Sharing Layout Detection Models Iyl OCR Module I —_ Storage & Visualization",
+    "type": "Document"
+}

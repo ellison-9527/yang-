@@ -1,0 +1,41 @@
+{
+    "id": null,
+    "metadata": {
+        "source": "../data/layout-parser-paper.pdf",
+        "is_extracted": "true",
+        "coordinates": {
+            "points": [
+                [
+                    487.7339782714844,
+                    2238.6669500000003
+                ],
+                [
+                    487.7339782714844,
+                    2309.03076171875
+                ],
+                [
+                    1674.9334529935031,
+                    2309.03076171875
+                ],
+                [
+                    1674.9334529935031,
+                    2238.6669500000003
+                ]
+            ],
+            "system": "PixelSpace",
+            "layout_width": 2125,
+            "layout_height": 2750
+        },
+        "filetype": "application/pdf",
+        "languages": [
+            "eng"
+        ],
+        "page_number": 14,
+        "filename": "layout-parser-paper.pdf",
+        "parent_id": "79ccc2c57c8d67f90627087e18410972",
+        "category": "ListItem",
+        "element_id": "34729a80f56e95b5506fa1835cb54da9"
+    },
+    "page_content": "[7] Ganin, Y., Lempitsky, V.: Unsupervised domain adaptation by backpropagation. In: International conference on machine learning. pp. 1180–1189. PMLR (2015)",
+    "type": "Document"
+}
