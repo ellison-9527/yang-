@@ -49,6 +49,14 @@ class MilvusVectorSave:
             device="cuda" if torch.cuda.is_available() else "cpu",  # 运行设备
             use_fp16=False
         )
+        # 实例化一个重排模型
+        self.rerank = BGERerankFunction(
+            model_name="BAAI/bge-reranker-v2-m3",
+            device="cuda" if torch.cuda.is_available() else "cpu",  # 运行设备
+            use_fp16=False,
+            batch_size=32,
+            normalize=True
+        )
         self.col = None
         if utility.has_collection(COLLECTION_NAME):
             self.col = Collection(COLLECTION_NAME)
@@ -98,13 +106,13 @@ class MilvusVectorSave:
 
     def doc_to_embed(self,docs: List[str]):
         """把新的document生成稠密和稀疏向量"""
-        print("生成向量......")
+        # print("生成向量......")
 
         # Generate embeddings using BGE-M3 model
         docs_embeddings = self.bge_m3_ef(docs)
-        print(f"Dense dim: {self.bge_m3_ef.dim['dense']}")
-        print(f"sparse dim : {self.bge_m3_ef.dim['sparse']}")
-        print(f"data number : {len(docs_embeddings['dense'])}")
+        # print(f"Dense dim: {self.bge_m3_ef.dim['dense']}")
+        # print(f"sparse dim : {self.bge_m3_ef.dim['sparse']}")
+        # print(f"data number : {len(docs_embeddings['dense'])}")
         return docs_embeddings
 
     def add_documents(self, datas: List[Document]):
@@ -139,18 +147,124 @@ class MilvusVectorSave:
         self.col.flush()  # 刷新缓存
         print("Number of entities inserted:", self.col.num_entities)
 
+    def dense_search(self,query_dense_embedding,limit=10,expr=None):
+        """
+        :param query_dense_embedding:  需要进行匹配的嵌入向量
+        :param limit:  返回最大相似结果个数
+        :param expr:   过滤条件
+        :return:  检索到的文档内容
+        """
+
+        res =  self.col.search(
+            [query_dense_embedding],# 查询向量
+            anns_field = "dense", # 指定搜索的目标字段
+            limit = limit,
+            output_fields=["text"], # 指定返回结果中包含的字段
+            param={"metric_type": "IP", "params": {}},
+            expr=expr
+        )[0]
+        return [ hit.get("text") for hit in res ]
+
+    def sparse_search(self, query_sparse_embedding, limit=10, expr=None):
+        """
+        :param query_sparse_embedding:  需要进行匹配的嵌入向量
+        :param limit:  返回最大相似结果个数
+        :param expr:   过滤条件
+        :return:  检索到的文档内容
+        """
+
+        res = self.col.search(
+            [query_sparse_embedding],  # 查询向量
+            anns_field="sparse",  # 指定搜索的目标字段
+            limit=limit,
+            output_fields=["text"],  # 指定返回结果中包含的字段
+            param={"metric_type": "IP", "params": {}},
+            expr=expr
+        )[0]
+        return [hit.get("text") for hit in res]
+
+    def hybird_search(self,query_dense_embedding,query_sparse_embedding,sparse_weight,dense_weight,limit=10,expr=None):
+        """
+        :param query_dense_embedding:    问题对应的密集向量
+        :param query_sparse_embedding:   问题对应的稀疏向量
+        :param sparse_weight:     语义检索的权重
+        :param dense_weight:      关键字检索权重
+        :param limit:             返回最大相似结果个数
+        :param expr:               过滤条件
+        :return:
+        """
+        # 创建一个密集向量请求对象
+        dense_req =  AnnSearchRequest(
+            [query_dense_embedding],
+            "dense",{"metric_type": "IP", "params": {}},limit=limit*2,expr=expr)
+        # 创建一个稀疏向量请求对象
+        sparse_req = AnnSearchRequest(
+            [query_sparse_embedding],
+            "sparse", {"metric_type": "IP", "params": {}}, limit=limit * 2, expr=expr)
+        # 创建权重排名对象
+        # rerank =  WeightedRanker(sparse_weight,dense_weight)
+
+        rerank =  RRFRanker(k=60)
 
 
-if __name__ == '__main__':
+        res = self.col.hybrid_search(
+            [dense_req,sparse_req],
+            rerank=rerank,
+            limit=limit,
+            output_fields=["text"]
+        )[0]
+        return [hit.get("text") for hit in res]
+
+    def reRank_model(self,query,docs,top_k=5,score_thres=0.2):
+        """将问题和问题给到重排模型，对这些文档依次进行打分，将分数高的排在前面，文档数量最后不要超过10"""
+        results =  self.rerank(
+            query=query,
+            documents=docs,
+            top_k=top_k,
+        )
+        rank_doc = []
+        for result in results:
+            if result.score > score_thres:
+                rank_doc.append(result.text)
+        return  rank_doc
+
     # 解析文件内容
-    file_path = r'C:\Users\33122\Desktop\assis_bk\Rag\data\md\operational_faq.md'
-    parser = MarkdownParser()
-    docs = parser.parse_markdown_to_documents(file_path)
-    print(docs[:20])
+if __name__ == '__main__':
+    # file_path = r'C:\Users\33122\Desktop\assis_bk\Rag\data\md\operational_faq.md'
+    # parser = MarkdownParser()
+    # docs = parser.parse_markdown_to_documents(file_path)
+    # print(docs[:20])
 
     # 写入Milvus数据库
     mv = MilvusVectorSave()
-    mv.create_collection()
-    mv.add_documents(docs)
+    # mv.create_collection()
+    # mv.add_documents(docs)
 
+    while True:
+        user = input("请输入：")
 
+        query_embeddings = mv.doc_to_embed([user])
+        # print(query_embeddings['dense'])
+        # res = mv.dense_search(query_embeddings['dense'][0],expr="categoyr=='content'")
+        # print("密集向量检索到的结果为:\n", len(res))
+        # print("密集向量检索到的结果为:\n", res)
+        # res = mv.sparse_search(query_embeddings['sparse'][[0]])
+        # print("关键字匹配到的结果为:\n", len(res))
+        # print("关键字匹配到的结果为:\n", res)
+
+        hybird_results =  mv.hybird_search(
+            query_embeddings['dense'][0],
+            query_embeddings['sparse'][[0]],
+            sparse_weight=0.3,
+            dense_weight=0.7,
+        )
+        # print("\n混合检索===============================")
+        # for result in hybird_results:
+        #     print(result)
+
+        results = mv.reRank_model(user,hybird_results)
+        print(len(results))
+        for result in results:
+            print(result)
+
+        print("\n===============================")

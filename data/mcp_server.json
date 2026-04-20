@@ -1,0 +1,21 @@
+{
+    "filesystem": {
+      "transport":"stdio",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Users\\33122\\Desktop\\test",
+        "C:\\Users\\33122\\Desktop\\ge_assistant\\skills"
+      ],
+      "command": "npx",
+      "enable" : false
+    },
+    "12306-mcp": {
+      "transport": "streamable_http",
+      "url": "https://mcp.api-inference.modelscope.net/7bbdc93421ea44/mcp",
+      "enable" : false
+    }
+}
+
+
+
